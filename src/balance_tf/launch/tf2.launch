@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="balance_tf" type="tf2_pub" name="tf2_pub" output="screen" />
+    <node pkg="balance_tf" type="tf2_sub" name="tf2_sub" output="screen" />
+</launch>

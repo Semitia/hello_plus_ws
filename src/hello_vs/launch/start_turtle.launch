@@ -1,0 +1,11 @@
+<launch>
+
+    <!--nodes_need_to_be_launched-->
+    <!--turtle's GUI（图形界面）-->
+    <!--包名，节点名，自己命个名-->
+
+    <node pkg="turtlesim" type="turtlesim_node" name="turtle_GUI"/>
+    <node pkg="turtlesim" type="turtle_teleop_key" name="turtle_KEY"/>
+    <node pkg="hello_vs" type="hello_vs" name="hello" output="screen"/>
+
+</launch>
